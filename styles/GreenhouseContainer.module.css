@@ -1,0 +1,38 @@
+.container{
+    width: 80%;
+    display:flex;
+    align-items: top;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn{
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    background-color: #63B175;
+    color: whitesmoke;
+    padding: 5px 15px;
+    border: none;
+    z-index: 3;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: .5s;
+    border: 2px solid #63B175;
+    font-size:1.5em;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: #63B175;
+}
+
+@media (max-width:720px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content:center;
+    }
+}

@@ -1,0 +1,12 @@
+.mainContainer{
+    display: flex;
+    min-height:80vh;
+    justify-content: center;
+    text-align: center;
+    background-color:whitesmoke;
+}
+@media (max-width:720px) {
+    .mainContainer{
+        width:100vw;
+    }
+}

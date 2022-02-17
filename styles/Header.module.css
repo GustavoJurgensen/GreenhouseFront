@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:59px;
+    background: rgb(99,177,117);
+    background: linear-gradient(90deg, rgba(99,177,117,1) 49%, rgba(76,134,89,1) 100%);
+    color: whitesmoke;
+}
+.container{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.header span{
+    position:absolute;
+}

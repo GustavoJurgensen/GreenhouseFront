@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.navbar a{
+    padding:15px 10px;
+    color: whitesmoke;
+    transition: 0.7s;
+}
+.navbar a:hover{
+    background-color: #4E9359;
+}
