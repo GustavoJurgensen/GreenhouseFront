@@ -24,7 +24,7 @@ export default function Greenhouses({ gh }) {
                 ))}
             </div>
             <button onClick={() => setShowModal(true)} className={styles.btn}>New Greenhouse</button>
-            {showModal && <Modal closeModal={setShowModal} name={"greenhouse"} showaddr={true} />}
+            {showModal && <Modal closeModal={setShowModal} name={"New Greenhouse"} message="Adding" showaddr={true} />}
         </>
     )
 }

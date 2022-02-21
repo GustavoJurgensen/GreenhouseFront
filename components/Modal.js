@@ -8,10 +8,10 @@ const options = [
     { value: 'tomato', label: 'Tomato' },
     { value: 'lettuce', label: 'Lettuce' },
 ];
-export default function Modal({ closeModal, name, address, showaddr, _id }) {
+export default function Modal({ closeModal,name, message, address, showaddr, _id }) {
     if (_id == undefined){_id = ""}
-    console.log(_id);
     //Json variables
+    //const name = `Greenhouse #${address}`;
     const [id, setId] = useState(_id);
     const [addr, setAddr] = useState(address);
     const [tTemperature, setTemperature] = useState(0);
@@ -74,7 +74,7 @@ export default function Modal({ closeModal, name, address, showaddr, _id }) {
                     <div className={styles.btn}>
                         <button onClick={() => closeModal(false)}>X</button>
                     </div>
-                    <h3>Updating Targets from </h3>
+                    <h3>{message} </h3>
                     <h1 className={styles.modal_title}>{name}</h1>
                     <form onSubmit={handleSubmit}>
                         <div className={styles.form_row}>

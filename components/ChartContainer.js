@@ -29,7 +29,7 @@ export default function ChartContainer(props) {
                     <ChartCard value="luminosity" addr={props.addr} />
                 </div>
             </div>
-            {showModal && <Modal closeModal={setShowModal} name={"greenhouse"} address={props.addr} _id={props.id} showaddr={false}/>}
+            {showModal && <Modal closeModal={setShowModal} name={`Greenhouse #${props.addr}`} message="Updating Targets from" address={props.addr} _id={props.id} showaddr={false}/>}
             {showDModal && <ModalDelete closeModal={setShowDModal} addr={props.addr} router={props.router}/>}
         </>
     )
