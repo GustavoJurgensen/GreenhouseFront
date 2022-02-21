@@ -14,7 +14,7 @@ export default function ChartContainer(props) {
             <div className={styles.c_container}>
                 <div className={styles.chart_header}>
                     <h1>Greenhouse<span>#{props.addr}</span></h1>
-                    <h2>Lettuce</h2>
+                    <h2>{props.crop}</h2>
                     <button onClick={() => setShowModal(true)} className={styles.btn}>
                         Set Target Parameters
                     </button>
