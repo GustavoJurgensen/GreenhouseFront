@@ -7,7 +7,11 @@ import Modal from '../../components/Modal'
 export const getServerSideProps = async () => {
     const res = await fetch('https://greenhouseapi.herokuapp.com/greenhouse/')
 
-    const gh = await res.json()
+    const gh = await res.json();
+    gh.sort(function (a, b) {
+        return a.addr - b.addr;
+    });
+
     return {
         props: { gh }
     }
