@@ -23,7 +23,7 @@ export default function More(context) {
     console.log(obj)
     return (
         <>
-            <ChartContainer id={obj.id} addr={obj.addr} obj={obj} router={router}/>
+            <ChartContainer id={obj.id} addr={obj.addr} crop={obj.cropType} obj={obj} router={router}/>
         </>
     )
 }
