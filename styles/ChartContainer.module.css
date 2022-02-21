@@ -26,6 +26,7 @@
 }
 .chart_header h2{
     font-weight:lighter;
+    transform: capitalize;
 }
 .chart_container{
     width: 90%;
