@@ -44,20 +44,20 @@ export default function LineChart(props) {
     datasets: [{
       label: 'Indoor',
       data: props.yDataIn,
-      fill: false,
+      fill: 'start',
       borderWidth: 3,
       borderColor: 'rgba(99,177,117,0.8)',
-      backgroundColor: 'rgba(99,177,117,0.2)',
-      tension: 0.1
+      backgroundColor: gradient,
+      tension: 0.5
     },
     {
       label: 'Outdoor',
       data: props.yDataOut,
       fill: true,
-      borderWidth: 3,
+      borderWidth: 2,
       borderColor: 'rgba(40, 71, 47, 0.8)',
       backgroundColor: 'rgba(40, 71, 47, 0.2)',
-      tension: 1
+      tension: 0.5
     },]
   };
   return (
