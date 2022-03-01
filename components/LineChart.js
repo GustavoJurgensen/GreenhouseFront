@@ -43,12 +43,12 @@ export default function LineChart(props) {
     labels: props.xData,
     datasets: [{
       label: 'Indoor',
-      borderWidth: 3,
+      data: props.yDataIn,
+      borderWidth: 2,
       fill: true,
-      borderColor: 'rgba(99,177,117,0.8)',
-      backgroundColor: 'rgba(99,177,117,0.2)',
-      tension: 0.5,
-      data: props.yDataIn
+      borderColor: "rgba(99,177,117,0.8)",
+      backgroundColor: "rgba(99,177,117,0.2)",
+      tension: 0.5
     },
     {
       label: 'Outdoor',
@@ -56,7 +56,6 @@ export default function LineChart(props) {
       fill: false,
       borderWidth: 2,
       borderColor: 'rgba(40, 71, 47, 0.8)',
-      backgroundColor: 'rgba(40, 71, 47, 0.2)',
       tension: 0.5
     },]
   };
