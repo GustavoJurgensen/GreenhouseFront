@@ -47,7 +47,7 @@ export default function LineChart(props) {
       fill: 'start',
       borderWidth: 3,
       borderColor: 'rgba(99,177,117,0.8)',
-      backgroundColor: gradient,
+      backgroundColor: 'rgba(99,177,117,0.2)',
       tension: 0.5
     },
     {
