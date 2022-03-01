@@ -42,6 +42,7 @@
 }
 .btn{
     margin-top: 10px;
+    margin-right:3px;
     padding: 5px 20px;
     border-radius: 5px;
     border:2px solid #63B175;
@@ -58,6 +59,7 @@
 }
 .btnred{
     margin-top: 10px;
+    margin-left: 3px;
     padding: 5px 20px;
     border-radius: 5px;
     border:2px solid rgb(170,4,53);    
