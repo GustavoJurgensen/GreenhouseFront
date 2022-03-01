@@ -47,13 +47,13 @@ export default function LineChart(props) {
       fill: 'start',
       borderWidth: 3,
       borderColor: 'rgba(99,177,117,0.8)',
-      backgroundColor: 'rgba(99,177,117,0.2)',
+      fillColor: "rgba(195, 40, 96, 0.1)",
       tension: 0.5
     },
     {
       label: 'Outdoor',
       data: props.yDataOut,
-      fill: true,
+      fill: false,
       borderWidth: 2,
       borderColor: 'rgba(40, 71, 47, 0.8)',
       backgroundColor: 'rgba(40, 71, 47, 0.2)',
