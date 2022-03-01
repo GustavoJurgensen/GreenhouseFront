@@ -15,12 +15,14 @@ export default function ChartContainer(props) {
                 <div className={styles.chart_header}>
                     <h1>Greenhouse<span>#{props.addr}</span></h1>
                     <h2>{props.crop}</h2>
-                    <button onClick={() => setShowModal(true)} className={styles.btn}>
-                        Set Target Parameters
-                    </button>
-                    <button onClick={() => setShowDModal(true)} className={styles.btnred}>
-                        Delete Greenhouse
-                    </button>
+                    <div className={styles.chart_header_buttons>
+                        <button onClick={() => setShowModal(true)} className={styles.btn}>
+                            Set Target Parameters
+                        </button>
+                        <button onClick={() => setShowDModal(true)} className={styles.btnred}>
+                            Delete Greenhouse
+                        </button>
+                    </div>
                 </div>
                 <div className={styles.chart_container}>
                     <ChartCard value="temperature" addr={props.addr} />
