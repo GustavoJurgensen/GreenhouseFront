@@ -44,9 +44,9 @@ export default function LineChart(props) {
     datasets: [{
       label: 'Indoor',
       borderWidth: 3,
-      fillColor: "rgba(195, 40, 96, 0.1)",
-      strokeColor: "rgba(195, 40, 96, 1)",
-      pointColor: "rgba(195, 40, 96, 1)",
+      fill: true,
+      borderColor: 'rgba(99,177,117,0.8)',
+      backgroundColor: 'rgba(99,177,117,0.2)',
       tension: 0.5,
       data: props.yDataIn
     },
