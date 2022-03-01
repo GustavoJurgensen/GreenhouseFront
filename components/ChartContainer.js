@@ -17,10 +17,10 @@ export default function ChartContainer(props) {
                     <h2>{props.crop}</h2>
                     <div className={styles.chart_header_buttons}>
                         <button onClick={() => setShowModal(true)} className={styles.btn}>
-                            Set Target Parameters
+                            Configure Target Parameters
                         </button>
                         <button onClick={() => setShowDModal(true)} className={styles.btnred}>
-                            Delete Greenhouse
+                            Icone lixeira
                         </button>
                     </div>
                 </div>
