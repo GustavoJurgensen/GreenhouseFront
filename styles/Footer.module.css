@@ -19,8 +19,13 @@
     color: #969595;
 }
 .footer span{
-    color: #969595;  
+    color: #969595;
+    cursor: pointer;
+    transition: 0.6s;
 }
+.footer span:hover{
+    color: #e0e0e0;    
+}    
 .container{
     display: flex;
     justify-content: space-evenly;
