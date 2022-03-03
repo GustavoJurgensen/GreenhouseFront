@@ -1,4 +1,5 @@
 import styles from '../styles/Footer.module.css'
+import Link from 'next/link'
 
 export default function Footer(){
     return(
@@ -27,7 +28,12 @@ export default function Footer(){
                         <h4> Content asiaushduashdua sadasd asdasd asd   asdasd  asdasd</h4>
                     </div>
                 </div>
-                <p>All rights reserved by &copy; 2022 Gustavo Pilon Jurgensen </p>
+                <div>   
+                    <p>All rights reserved by &copy; 2022 </p>
+                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none' }}>
+                        Gustavo Pilon Jurgensen
+                    </Link>
+                </div>
             </div>
         </footer>
     )
