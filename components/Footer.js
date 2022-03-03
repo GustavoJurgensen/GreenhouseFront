@@ -28,10 +28,9 @@ export default function Footer(){
                         <h4> Content asiaushduashdua sadasd asdasd asd   asdasd  asdasd</h4>
                     </div>
                 </div>
-                <p>   
-                    <span>All rights reserved by &copy; 2022 </span>
-                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none', curso: 'pointer'}}>
-                        <span>Gustavo Pilon Jurgensen</span>
+                <p>
+                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none'}}>
+                        <span>All rights reserved by &copy; 2022 Gustavo Pilon Jurgensen</span>
                     </Link>
                 </p>
             </div>
