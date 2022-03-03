@@ -28,12 +28,12 @@ export default function Footer(){
                         <h4> Content asiaushduashdua sadasd asdasd asd   asdasd  asdasd</h4>
                     </div>
                 </div>
-                <div>   
-                    All rights reserved by &copy; 2022 
-                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none',color: '#323232'}}>
+                <p>   
+                    <span>All rights reserved by &copy; 2022 </span>
+                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none'}}>
                         Gustavo Pilon Jurgensen
                     </Link>
-                </div>
+                </p>
             </div>
         </footer>
     )
