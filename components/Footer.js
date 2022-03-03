@@ -31,7 +31,7 @@ export default function Footer(){
                 <p>   
                     <span>All rights reserved by &copy; 2022 </span>
                     <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none'}}>
-                        Gustavo Pilon Jurgensen
+                        <span>Gustavo Pilon Jurgensen</span>
                     </Link>
                 </p>
             </div>
