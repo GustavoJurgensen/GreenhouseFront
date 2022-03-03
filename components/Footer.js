@@ -30,7 +30,7 @@ export default function Footer(){
                 </div>
                 <p>   
                     <span>All rights reserved by &copy; 2022 </span>
-                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none'}}>
+                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none', curso: 'pointer'}}>
                         <span>Gustavo Pilon Jurgensen</span>
                     </Link>
                 </p>
