@@ -29,8 +29,8 @@ export default function Footer(){
                     </div>
                 </div>
                 <div>   
-                    <p>All rights reserved by &copy; 2022 
-                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none' }}>
+                    <p>All rights reserved by &copy; 2022  
+                    <Link href={"https://github.com/GustavoJurgensen"} to="first" style={{ textDecoration: 'none' ; color: 'whitesmoke'}}>
                         Gustavo Pilon Jurgensen
                     </Link>
                     </p>
