@@ -18,7 +18,9 @@
     background-color: #323232;
     color: #969595;
 }
-
+.footer span{
+    color: #323232;  
+}
 .container{
     display: flex;
     justify-content: space-evenly;
