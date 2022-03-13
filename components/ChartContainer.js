@@ -20,7 +20,7 @@ export default function ChartContainer(props) {
                             Configure Target Parameters
                         </button>
                         <button onClick={() => setShowDModal(true)} className={styles.btnred}>
-                            Icone lixeira
+                            Delete
                         </button>
                     </div>
                 </div>
