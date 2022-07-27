@@ -6,8 +6,8 @@ export default function Home() {
             <div className={styles.container}>
                 <div className={styles.home_img}>
                     <div className={styles.home_img_text}>
-                        <h1>Title</h1>
-                        <h3>asdasd as da sfnasf adas dafas das fasdasd</h3>
+                        <h1>Monitoramento e Automação de Estufa</h1>
+                        <h3>Gustavo Pilon Jurgensen</h3>
                     </div>
                     <div className={styles.imgc}>
                         <div className={styles.blur}></div>
@@ -24,8 +24,8 @@ export default function Home() {
                 </div>
                 <div className={styles.content_container}>
                     <div className={styles.home_content}>
-                        <h1>Title</h1>
-                        <h3>text ashausdh asduhasudhasd uashduasdh uashduashd uashduahsduahsd uashdushdaushd asduhausdhuasd uashduashduh uhasduhasdu udhauhsudasd</h3>
+                        <h1>Monitoramento e Automação de Estufa</h1>
+                        <h3>Trabalho de Conclusão de Curso Gustavo Pilon Jurgensen</h3>
                     </div>
                 </div>
             </div>
